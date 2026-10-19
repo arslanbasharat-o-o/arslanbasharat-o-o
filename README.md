@@ -1,25 +1,35 @@
-# Arslan Basharat
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/intro-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/intro-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.svg">
+  <img src="assets/intro-light.svg" alt="Arslan Basharat — Automation and full-stack development. Building reliable software for daily operations." width="900">
+</picture>
 
-Automation developer focused on supplier scraping dashboards, inventory workflows, and price-monitoring tools for repair-parts operations.
+I build software that makes day-to-day operations easier: **repair workflows, supplier data pipelines, and image-search tools.** My work connects practical interfaces with dependable automation, from the first data import to deployment.
 
-## What I Build
+[Email](mailto:arslanbasharat414@gmail.com) · [Explore my repositories](https://github.com/arslanbasharat-o-o?tab=repositories)
 
-- Python and Flask dashboards for internal operations
-- Supplier catalog extraction and product enrichment workflows
-- SQLite-backed automation with resumable checkpoints
-- SKU matching, inventory cleanup, and price history tracking
-- Deployment-ready utilities for Windows and Linux servers
+### Selected work
 
-## Current Focus
+| Project | What it does |
+| :--- | :--- |
+| **[RMA System](https://github.com/arslanbasharat-o-o/RMA-System)** | Return tracking, mobile photo capture, and model-matching review for repair teams.<br><sub>Next.js · TypeScript · PostgreSQL · Docker</sub> |
+| **[Google Lens API](https://github.com/arslanbasharat-o-o/Google-Lens-API)** | A self-hosted image-search API with a TypeScript gateway, Python browser workers, and queued processing.<br><sub>Fastify · Python · Scrapling · Redis</sub> |
+| **[Parts Extractor](https://github.com/arslanbasharat-o-o/Scraper)** | Supplier catalog extraction, product enrichment, price history, and scheduled, resumable scraping.<br><sub>Python · Flask · SQLite · Playwright</sub> |
 
-- Parts Extractor v8.1.0
-- Reliable scraper scheduling and recovery
-- Cleaner inventory data pipelines for supplier catalogs
+### Toolkit
 
-## Tech Stack
+**Build** &nbsp; TypeScript · JavaScript · Python · Next.js · Flask · Fastify<br>
+**Data** &nbsp; PostgreSQL · SQLite · Redis · Catalog & SKU matching<br>
+**Automate & ship** &nbsp; Scrapling · Playwright · Docker · Linux · GitHub Actions
 
-Python, Flask, SQLite, JavaScript, HTML/CSS, Playwright, Docker, and GitHub Actions.
+### Contribution activity
 
-## Contact
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/activity-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/activity-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <img src="assets/activity-light.svg" alt="GitHub contribution calendar with yearly contribution total, active days, and longest streak. Refreshed daily from the public GitHub profile." width="900">
+</picture>
 
-- Email: arslanbasharat414@gmail.com
+<sub>Updated daily from GitHub · Original SVGs, generated in this repository · [How this profile works](docs/PROFILE.md)</sub>

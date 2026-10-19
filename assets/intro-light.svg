@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="334" viewBox="0 0 900 334" role="img" aria-labelledby="title desc">
+<title id="title">Arslan Basharat | Automation &amp; full-stack development</title><desc id="desc">Turning daily operations into reliable software. TXParts Enterprise LLC. Repair operations, supplier data, and APIs.</desc>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}
+.text{fill:#172a3a}.muted{fill:#526579}.accent{fill:#14734b}
+.reveal{animation:reveal .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes reveal{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none}}
+</style>
+<rect x=".5" y=".5" width="899" height="333" rx="14" fill="#f6f8fa" stroke="#ccd5de"/>
+<text x="28" y="33" font-size="12" class="muted" >arslan@github ~ $ whoami</text>
+<path d="M 0 52 H 900" stroke="#ccd5de"/>
+<g class="reveal">
+<text x="30" y="130" font-size="19" class="accent" xml:space="preserve">    /\     |====\ </text>
+<text x="30" y="152" font-size="19" class="accent" xml:space="preserve">   /  \    |     |</text>
+<text x="30" y="174" font-size="19" class="accent" xml:space="preserve">  / /\ \   |====/ </text>
+<text x="30" y="196" font-size="19" class="accent" xml:space="preserve"> / /==\ \  |     |</text>
+<text x="30" y="218" font-size="19" class="accent" xml:space="preserve">/_/    \_\ |====/ </text>
+<text x="30" y="278" font-size="11" class="muted" >BUILD / AUTOMATE / SHIP</text>
+</g>
+<path d="M 300 84 V 282" stroke="#ccd5de"/>
+<g class="reveal" style="animation-delay:.08s">
+<text x="334" y="99" font-size="13" class="accent" letter-spacing="2">ARSLAN BASHARAT</text>
+<text x="334" y="148" font-size="29" class="text" font-weight="700">Turning daily operations</text>
+<text x="334" y="185" font-size="29" class="text" font-weight="700">into reliable software.</text>
+<text x="334" y="229" font-size="12" class="muted" >role</text>
+<text x="398" y="229" font-size="12" class="text" >Automation &amp; full-stack developer</text>
+<text x="334" y="258" font-size="12" class="muted" >at</text>
+<text x="398" y="258" font-size="12" class="text" >TXParts Enterprise LLC</text>
+<text x="334" y="287" font-size="12" class="muted" >focus</text>
+<text x="398" y="287" font-size="12" class="text" >Repair ops / supplier data / APIs</text>
+</g>
+</svg>

@@ -14,12 +14,12 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospac
 <text x="28" y="99" font-size="13" class="accent" letter-spacing="2">ARSLAN BASHARAT</text>
 <text x="28" y="148" font-size="27" class="text" font-weight="700">Turning daily operations</text>
 <text x="28" y="185" font-size="27" class="text" font-weight="700">into reliable software.</text>
-<text x="28" y="229" font-size="12" class="muted" >role</text>
-<text x="92" y="229" font-size="12" class="text" >Automation &amp; full-stack developer</text>
-<text x="28" y="258" font-size="12" class="muted" >at</text>
-<text x="92" y="258" font-size="12" class="text" >TXParts Enterprise LLC</text>
-<text x="28" y="287" font-size="12" class="muted" >focus</text>
-<text x="92" y="287" font-size="12" class="text" >Repair ops / supplier data / APIs</text>
+<text x="28" y="229" font-size="14" class="muted" >role</text>
+<text x="92" y="229" font-size="15" class="text" >Automation &amp; full-stack developer</text>
+<text x="28" y="258" font-size="14" class="muted" >at</text>
+<text x="92" y="258" font-size="15" class="text" >TXParts Enterprise LLC</text>
+<text x="28" y="287" font-size="14" class="muted" >focus</text>
+<text x="92" y="287" font-size="15" class="text" >Repair ops / supplier data / APIs</text>
 </g>
 <path d="M 28 342 H 452" stroke="#303d48"/>
 <text x="28" y="380" font-size="12" class="accent" >AB  /  BUILD · AUTOMATE · SHIP</text>

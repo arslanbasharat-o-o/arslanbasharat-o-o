@@ -10,7 +10,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospac
 <rect x=".5" y=".5" width="479" height="344" rx="14" fill="#0d1117" stroke="#303d48"/>
 <text x="28" y="33" font-size="12" class="muted" >arslan@github ~ $ activity --year</text>
 <text x="452" y="33" font-size="10" class="muted" text-anchor="end">LAST 16 WEEKS</text>
-<text x="54" y="79" font-size="11" class="muted" >Jul</text>
+<text x="54" y="79" font-size="14" class="muted" >Jul</text>
 <rect class="reveal" style="animation-delay:0.000s" x="54" y="91" width="19" height="19" rx="2" fill="#1b2732"><title>2026-07-05: 0 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.025s" x="54" y="116" width="19" height="19" rx="2" fill="#1b2732"><title>2026-07-06: 0 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.050s" x="54" y="141" width="19" height="19" rx="2" fill="#1b2732"><title>2026-07-07: 0 contributions</title></rect>
@@ -39,7 +39,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospac
 <rect class="reveal" style="animation-delay:0.136s" x="129" y="191" width="19" height="19" rx="2" fill="#1b2732"><title>2026-07-30: 0 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.161s" x="129" y="216" width="19" height="19" rx="2" fill="#1b2732"><title>2026-07-31: 0 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.186s" x="129" y="241" width="19" height="19" rx="2" fill="#1b2732"><title>2026-08-01: 0 contributions</title></rect>
-<text x="154" y="79" font-size="11" class="muted" >Aug</text>
+<text x="154" y="79" font-size="14" class="muted" >Aug</text>
 <rect class="reveal" style="animation-delay:0.048s" x="154" y="91" width="19" height="19" rx="2" fill="#1b2732"><title>2026-08-02: 0 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.073s" x="154" y="116" width="19" height="19" rx="2" fill="#1b2732"><title>2026-08-03: 0 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.098s" x="154" y="141" width="19" height="19" rx="2" fill="#1b2732"><title>2026-08-04: 0 contributions</title></rect>
@@ -75,7 +75,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospac
 <rect class="reveal" style="animation-delay:0.196s" x="254" y="191" width="19" height="19" rx="2" fill="#214d40"><title>2026-09-03: 2 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.221s" x="254" y="216" width="19" height="19" rx="2" fill="#1b2732"><title>2026-09-04: 0 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.246s" x="254" y="241" width="19" height="19" rx="2" fill="#317658"><title>2026-09-05: 26 contributions</title></rect>
-<text x="279" y="79" font-size="11" class="muted" >Sep</text>
+<text x="279" y="79" font-size="14" class="muted" >Sep</text>
 <rect class="reveal" style="animation-delay:0.108s" x="279" y="91" width="19" height="19" rx="2" fill="#4aa77a"><title>2026-09-06: 48 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.133s" x="279" y="116" width="19" height="19" rx="2" fill="#214d40"><title>2026-09-07: 19 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.158s" x="279" y="141" width="19" height="19" rx="2" fill="#214d40"><title>2026-09-08: 6 contributions</title></rect>
@@ -104,7 +104,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospac
 <rect class="reveal" style="animation-delay:0.244s" x="354" y="191" width="19" height="19" rx="2" fill="#214d40"><title>2026-10-01: 4 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.269s" x="354" y="216" width="19" height="19" rx="2" fill="#1b2732"><title>2026-10-02: 0 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.294s" x="354" y="241" width="19" height="19" rx="2" fill="#214d40"><title>2026-10-03: 2 contributions</title></rect>
-<text x="379" y="79" font-size="11" class="muted" >Oct</text>
+<text x="379" y="79" font-size="14" class="muted" >Oct</text>
 <rect class="reveal" style="animation-delay:0.156s" x="379" y="91" width="19" height="19" rx="2" fill="#214d40"><title>2026-10-04: 4 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.181s" x="379" y="116" width="19" height="19" rx="2" fill="#214d40"><title>2026-10-05: 5 contributions</title></rect>
 <rect class="reveal" style="animation-delay:0.206s" x="379" y="141" width="19" height="19" rx="2" fill="#214d40"><title>2026-10-06: 1 contributions</title></rect>
@@ -125,10 +125,10 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospac
 <text x="28" y="184" font-size="10" class="muted" >W</text>
 <text x="28" y="234" font-size="10" class="muted" >F</text>
 <path d="M 28 284 H 452" stroke="#303d48"/>
-<text x="28" y="311" font-size="19" class="accent" font-weight="700">424</text>
-<text x="28" y="330" font-size="10" class="muted" >contributions</text>
-<text x="169" y="311" font-size="19" class="accent" font-weight="700">39</text>
-<text x="169" y="330" font-size="10" class="muted" >active days</text>
-<text x="310" y="311" font-size="19" class="accent" font-weight="700">5d</text>
-<text x="310" y="330" font-size="10" class="muted" >longest streak</text>
+<text x="28" y="311" font-size="24" class="accent" font-weight="700">424</text>
+<text x="28" y="330" font-size="14" class="muted" >contributions</text>
+<text x="169" y="311" font-size="24" class="accent" font-weight="700">39</text>
+<text x="169" y="330" font-size="14" class="muted" >active days</text>
+<text x="310" y="311" font-size="24" class="accent" font-weight="700">5d</text>
+<text x="310" y="330" font-size="14" class="muted" >longest streak</text>
 </svg>

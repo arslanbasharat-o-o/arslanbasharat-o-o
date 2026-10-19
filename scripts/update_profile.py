@@ -132,7 +132,8 @@ def intro(p, mobile=False):
              text(x, y+86, "into reliable software.", 27 if mobile else 29, extra='font-weight="700"')]
     for i, (key, value) in enumerate([("role", "Automation & full-stack developer"), ("at", "TXParts Enterprise LLC"),
                                      ("focus", "Repair ops / supplier data / APIs")]):
-        bits += [text(x, y+130+i*29, key, 12, "muted"), text(x+64, y+130+i*29, value, 12)]
+        bits += [text(x, y+130+i*29, key, 14 if mobile else 12, "muted"),
+                 text(x+64, y+130+i*29, value, 15 if mobile else 12)]
     bits.append('</g>')
     if mobile:
         bits += [f'<path d="M 28 342 H 452" stroke="{p["border"]}"/>',
@@ -166,7 +167,7 @@ def activity(data, p, mobile=False):
         col, row = divmod((dt-start).days, 7)
         x, y = left+col*step, top+row*step
         if dt.month != last_month and row == 0:
-            bits.append(text(x, top-12, dt.strftime("%b"), 11, "muted"))
+            bits.append(text(x, top-12, dt.strftime("%b"), 14 if mobile else 11, "muted"))
             last_month = dt.month
         delay = min(col*.012+row*.025, .75)
         bits.append(f'<rect class="reveal" style="animation-delay:{delay:.3f}s" x="{x}" y="{y}" width="{size}" height="{size}" rx="2" fill="{p["ramp"][day["level"]]}"><title>{day["date"]}: {day["count"]} contributions</title></rect>')
@@ -176,8 +177,8 @@ def activity(data, p, mobile=False):
     bits.append(f'<path d="M 28 {divider} H {w-28}" stroke="{p["border"]}"/>')
     for i, (value, label) in enumerate([(f'{data["total"]:,}', "contributions"), (str(active), "active days"), (f"{longest}d", "longest streak")]):
         x = 28+i*((w-56)//3)
-        bits += [text(x, divider+27, value, 19, "accent", 'font-weight="700"'),
-                 text(x, divider+46, label, 10, "muted")]
+        bits += [text(x, divider+27, value, 24 if mobile else 19, "accent", 'font-weight="700"'),
+                 text(x, divider+46, label, 14 if mobile else 10, "muted")]
     if not mobile:
         bits.append(text(w-28, 202, f'Updated {data["as_of"]} · GitHub public profile', 10, "muted", 'text-anchor="end"'))
         bits.append(text(54, 202, "Less", 10, "muted"))

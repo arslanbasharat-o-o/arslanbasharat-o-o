@@ -104,29 +104,35 @@ def frame(w, h, title, desc, p, content):
 <style>
 text{{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}}
 .text{{fill:{p['text']}}}.muted{{fill:{p['muted']}}}.accent{{fill:{p['accent']}}}
-.reveal{{animation:reveal .8s cubic-bezier(.2,.7,.2,1) both}}
-@keyframes reveal{{from{{opacity:0;transform:translateY(5px)}}to{{opacity:1;transform:translateY(0)}}}}
-@media(prefers-reduced-motion:reduce){{.reveal{{animation:none}}}}
+.cursor{{animation:blink 1.2s steps(2,jump-none) infinite}}
+.ink{{animation:ink 6s cubic-bezier(.77,0,.175,1) infinite}}
+.scan{{animation:scan 6s linear infinite}}
+@keyframes blink{{0%,49%{{opacity:1}}50%,100%{{opacity:.15}}}}
+@keyframes ink{{0%,100%{{opacity:.55}}50%{{opacity:1}}}}
+@keyframes scan{{from{{transform:translateX(0)}}to{{transform:translateX({w+80}px)}}}}
+@media(prefers-reduced-motion:reduce){{.cursor,.ink,.scan{{animation:none}}.scan{{display:none}}}}
 </style>
 <rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="14" fill="{p['bg']}" stroke="{p['border']}"/>
 {content}
+<rect class="scan" x="-80" y="{h-3}" width="80" height="2" rx="1" fill="{p['accent']}" opacity=".7"/>
 </svg>\n'''
 
 
 def intro(p, mobile=False):
     w, h = (480, 420) if mobile else (900, 334)
     bits = [text(28, 33, "arslan@github ~ $ whoami", 12, "muted"),
+            f'<rect class="cursor" x="201" y="23" width="7" height="12" fill="{p["accent"]}"/>',
             f'<path d="M 0 52 H {w}" stroke="{p["border"]}"/>']
     art = ["    /\\     |====\\ ", "   /  \\    |     |", "  / /\\ \\   |====/ ",
            " / /==\\ \\  |     |", "/_/    \\_\\ |====/ "]
     if not mobile:
-        bits.append('<g class="reveal">')
+        bits.append('<g class="ink">')
         for i, row in enumerate(art):
             bits.append(text(30, 130+i*22, row, 19, "accent", 'xml:space="preserve"'))
         bits += [text(30, 278, "BUILD / AUTOMATE / SHIP", 11, "muted"), '</g>',
                  f'<path d="M 300 84 V 282" stroke="{p["border"]}"/>']
     x, y = (28, 99) if mobile else (334, 99)
-    bits.append('<g class="reveal" style="animation-delay:.08s">')
+    bits.append('<g>')
     bits += [text(x, y, "ARSLAN BASHARAT", 13, "accent", 'letter-spacing="2"'),
              text(x, y+49, "Turning daily operations", 27 if mobile else 29, extra='font-weight="700"'),
              text(x, y+86, "into reliable software.", 27 if mobile else 29, extra='font-weight="700"')]
@@ -160,6 +166,7 @@ def activity(data, p, mobile=False):
     size, gap, left, top = (19, 6, 54, 91) if mobile else (11, 4, 54, 91)
     step = size+gap
     bits = [text(28, 33, "arslan@github ~ $ activity --year", 12, "muted"),
+            f'<rect class="cursor" x="265" y="23" width="7" height="12" fill="{p["accent"]}"/>',
             text(w-28, 33, "LAST 16 WEEKS" if mobile else "PAST YEAR", 10, "muted", 'text-anchor="end"')]
     last_month = None
     for day in days:
@@ -169,8 +176,7 @@ def activity(data, p, mobile=False):
         if dt.month != last_month and row == 0:
             bits.append(text(x, top-12, dt.strftime("%b"), 14 if mobile else 11, "muted"))
             last_month = dt.month
-        delay = min(col*.012+row*.025, .75)
-        bits.append(f'<rect class="reveal" style="animation-delay:{delay:.3f}s" x="{x}" y="{y}" width="{size}" height="{size}" rx="2" fill="{p["ramp"][day["level"]]}"><title>{day["date"]}: {day["count"]} contributions</title></rect>')
+        bits.append(f'<rect x="{x}" y="{y}" width="{size}" height="{size}" rx="2" fill="{p["ramp"][day["level"]]}"><title>{day["date"]}: {day["count"]} contributions</title></rect>')
     for row, label in [(1, "M"), (3, "W"), (5, "F")]:
         bits.append(text(28, top+row*step+size-1, label, 10, "muted"))
     divider = 284 if mobile else 222

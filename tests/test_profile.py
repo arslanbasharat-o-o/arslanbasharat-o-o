@@ -59,6 +59,9 @@ class CalendarTests(unittest.TestCase):
                     self.assertNotIn("<script", svg)
                     self.assertNotIn("href=", svg)
                     self.assertIn("prefers-reduced-motion", svg)
+                    self.assertIn("infinite", svg)
+                    self.assertNotIn(".reveal{", svg)
+                    self.assertIn('class="cursor"', svg)
 
 
 if __name__ == "__main__":

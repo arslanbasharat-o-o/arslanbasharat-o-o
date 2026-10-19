@@ -1,8 +1,10 @@
 # Maintaining this profile
 
 The README features public projects and original terminal-style SVG artwork.
-Both artwork panels have light, dark, desktop, and mobile versions. Animations
-play once, settle within two seconds, and respect reduced-motion preferences.
+Both artwork panels have light, dark, desktop, and mobile versions. Terminal
+cursors and an accent sweep loop continuously; the monogram gently pulses.
+Text and calendar cells remain visible from the first frame. Animations respect
+reduced-motion preferences, which show a static profile instead.
 Introduction and project information is also available as text or image alt text.
 
 ## Daily contribution refresh

@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/intro-dark-mobile.svg">
-  <source media="(max-width: 600px)" srcset="assets/intro-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.svg">
-  <img src="assets/intro-light.svg" alt="Arslan Basharat — Automation and full-stack development. Building reliable software for daily operations." width="900">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/intro-dark-mobile.svg?v=2">
+  <source media="(max-width: 600px)" srcset="assets/intro-light-mobile.svg?v=2">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.svg?v=2">
+  <img src="assets/intro-light.svg?v=2" alt="Arslan Basharat — Automation and full-stack development. Building reliable software for daily operations." width="900">
 </picture>
 
 I build software that makes day-to-day operations easier: **repair workflows, supplier data pipelines, and image-search tools.** My work connects practical interfaces with dependable automation, from the first data import to deployment.
@@ -26,10 +26,10 @@ I build software that makes day-to-day operations easier: **repair workflows, su
 ### Contribution activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/activity-dark-mobile.svg">
-  <source media="(max-width: 600px)" srcset="assets/activity-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
-  <img src="assets/activity-light.svg" alt="GitHub contribution calendar with yearly contribution total, active days, and longest streak. Refreshed daily from the public GitHub profile." width="900">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/activity-dark-mobile.svg?v=2">
+  <source media="(max-width: 600px)" srcset="assets/activity-light-mobile.svg?v=2">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=2">
+  <img src="assets/activity-light.svg?v=2" alt="GitHub contribution calendar with yearly contribution total, active days, and longest streak. Refreshed daily from the public GitHub profile." width="900">
 </picture>
 
 <sub>Updated daily from GitHub · Original SVGs, generated in this repository · [How this profile works](docs/PROFILE.md)</sub>

@@ -1,8 +1,8 @@
 {
   "username": "arslanbasharat-o-o",
-  "as_of": "2026-10-19",
-  "total": 425,
-  "daily_total": 425,
+  "as_of": "2026-10-20",
+  "total": 436,
+  "daily_total": 436,
   "days": [
     {
       "date": "2025-10-19",
@@ -1621,7 +1621,7 @@
     },
     {
       "date": "2026-09-07",
-      "level": 1,
+      "level": 2,
       "count": 19
     },
     {
@@ -1821,7 +1821,7 @@
     },
     {
       "date": "2026-10-17",
-      "level": 2,
+      "level": 3,
       "count": 33
     },
     {
@@ -1831,8 +1831,13 @@
     },
     {
       "date": "2026-10-19",
-      "level": 3,
-      "count": 53
+      "level": 4,
+      "count": 64
+    },
+    {
+      "date": "2026-10-20",
+      "level": 0,
+      "count": 0
     }
   ]
 }

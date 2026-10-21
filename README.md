@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/intro-dark-mobile.svg?v=cat-20261021">
-  <source media="(max-width: 600px)" srcset="assets/intro-light-mobile.svg?v=cat-20261021">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.svg?v=cat-20261021">
-  <img src="assets/intro-light.svg?v=cat-20261021" alt="Arslan Basharat — Automation and full-stack development. Building reliable software for daily operations." width="900">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/intro-avatar-dark-mobile.svg?v=cat-20261021">
+  <source media="(max-width: 600px)" srcset="assets/intro-avatar-light-mobile.svg?v=cat-20261021">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/intro-avatar-dark.svg?v=cat-20261021">
+  <img src="assets/intro-avatar-light.svg?v=cat-20261021" alt="Arslan Basharat — Automation and full-stack development. Building reliable software for daily operations." width="900">
 </picture>
 
 I build software that makes day-to-day operations easier: **repair workflows, supplier data pipelines, and image-search tools.** My work connects practical interfaces with dependable automation, from the first data import to deployment.

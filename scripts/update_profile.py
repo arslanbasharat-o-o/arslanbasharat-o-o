@@ -210,7 +210,7 @@ def main():
     for theme, palette in THEMES.items():
         for mobile in [False, True]:
             suffix = f'{theme}{"-mobile" if mobile else ""}.svg'
-            outputs[ROOT / f"assets/intro-{suffix}"] = intro(palette, mobile)
+            outputs[ROOT / f"assets/intro-avatar-{suffix}"] = intro(palette, mobile)
             outputs[ROOT / f"assets/activity-{suffix}"] = activity(data, palette, mobile)
     for path, content in outputs.items():
         if path.suffix == ".svg":

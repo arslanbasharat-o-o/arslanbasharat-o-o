@@ -2,7 +2,7 @@
 
 The README features public projects and original terminal-style SVG artwork.
 Both artwork panels have light, dark, desktop, and mobile versions. Terminal
-cursors and an accent sweep loop continuously; the monogram gently pulses.
+cursors and an accent sweep loop continuously; the cat portrait gently pulses.
 Text and calendar cells remain visible from the first frame. Animations respect
 reduced-motion preferences, which show a static profile instead.
 Introduction and project information is also available as text or image alt text.
@@ -34,6 +34,7 @@ python3 scripts/update_profile.py
 
 ## Editing
 
+- The cat portrait in `assets/avatar-ascii.svg` is a self-contained, colored ASCII rendition of the GitHub avatar. It is embedded into each banner, so GitHub needs no external image request.
 - Change colors, introduction, or layout in `scripts/update_profile.py`.
 - Change projects and contact links in `README.md`.
 - Regenerate and commit SVGs with source changes.

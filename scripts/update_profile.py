@@ -108,7 +108,7 @@ text{{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospa
 .ink{{animation:ink 6s cubic-bezier(.77,0,.175,1) infinite}}
 .scan{{animation:scan 6s linear infinite}}
 @keyframes blink{{0%,49%{{opacity:1}}50%,100%{{opacity:.15}}}}
-@keyframes ink{{0%,100%{{opacity:.55}}50%{{opacity:1}}}}
+@keyframes ink{{0%,100%{{opacity:.85}}50%{{opacity:1}}}}
 @keyframes scan{{from{{transform:translateX(0)}}to{{transform:translateX({w+80}px)}}}}
 @media(prefers-reduced-motion:reduce){{.cursor,.ink,.scan{{animation:none}}.scan{{display:none}}}}
 </style>
@@ -119,18 +119,15 @@ text{{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospa
 
 
 def intro(p, mobile=False):
-    w, h = (480, 420) if mobile else (900, 334)
+    w, h = (480, 580) if mobile else (900, 334)
     bits = [text(28, 33, "arslan@github ~ $ whoami", 12, "muted"),
             f'<rect class="cursor" x="201" y="23" width="7" height="12" fill="{p["accent"]}"/>',
             f'<path d="M 0 52 H {w}" stroke="{p["border"]}"/>']
-    art = ["    /\\     |====\\ ", "   /  \\    |     |", "  / /\\ \\   |====/ ",
-           " / /==\\ \\  |     |", "/_/    \\_\\ |====/ "]
+    portrait = (ROOT / "assets/avatar-ascii.svg").read_text(encoding="utf-8")
     if not mobile:
-        bits.append('<g class="ink">')
-        for i, row in enumerate(art):
-            bits.append(text(30, 130+i*22, row, 19, "accent", 'xml:space="preserve"'))
-        bits += [text(30, 278, "BUILD / AUTOMATE / SHIP", 11, "muted"), '</g>',
-                 f'<path d="M 300 84 V 282" stroke="{p["border"]}"/>']
+        bits += ['<g class="ink">',
+                 portrait.replace('<svg ', '<svg x="30" y="72" width="232" height="232" ', 1),
+                 '</g>', f'<path d="M 300 84 V 282" stroke="{p["border"]}"/>']
     x, y = (28, 99) if mobile else (334, 99)
     bits.append('<g>')
     bits += [text(x, y, "ARSLAN BASHARAT", 13, "accent", 'letter-spacing="2"'),
@@ -143,9 +140,13 @@ def intro(p, mobile=False):
     bits.append('</g>')
     if mobile:
         bits += [f'<path d="M 28 342 H 452" stroke="{p["border"]}"/>',
-                 text(28, 380, "AB  /  BUILD · AUTOMATE · SHIP", 12, "accent")]
+                 '<g class="ink">',
+                 portrait.replace('<svg ', '<svg x="28" y="362" width="192" height="192" ', 1), '</g>',
+                 text(252, 429, "BUILD", 15, "accent"),
+                 text(252, 458, "AUTOMATE", 15, "accent"),
+                 text(252, 487, "SHIP", 15, "accent")]
     return frame(w, h, "Arslan Basharat | Automation & full-stack development",
-                 "Turning daily operations into reliable software. TXParts Enterprise LLC. Repair operations, supplier data, and APIs.", p, "\n".join(bits))
+                 "Cat avatar rendered as ASCII artwork. Turning daily operations into reliable software. TXParts Enterprise LLC. Repair operations, supplier data, and APIs.", p, "\n".join(bits))
 
 
 def activity(data, p, mobile=False):

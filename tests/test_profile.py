@@ -54,7 +54,9 @@ class CalendarTests(unittest.TestCase):
     def test_all_render_variants_have_valid_xml_and_no_external_resources(self):
         for palette in THEMES.values():
             for mobile in [False, True]:
-                for svg in [intro(palette, mobile), activity(parse(fixture()), palette, mobile)]:
+                banner = intro(palette, mobile)
+                self.assertIn("ASCII portrait of the cat wearing earphones", banner)
+                for svg in [banner, activity(parse(fixture()), palette, mobile)]:
                     ElementTree.fromstring(svg)
                     self.assertNotIn("<script", svg)
                     self.assertNotIn("href=", svg)

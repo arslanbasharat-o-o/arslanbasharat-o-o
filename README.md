@@ -5,7 +5,7 @@
   <img src="assets/intro-avatar-light.svg?v=cat-20261021" alt="Arslan Basharat — Automation and full-stack development. Building reliable software for daily operations." width="900">
 </picture>
 
-I build software that makes day-to-day operations easier: **repair workflows, supplier data pipelines, and image-search tools.** My work connects practical interfaces with dependable automation, from the first data import to deployment.
+I build tools that make real work less tedious: **repair operations, supplier data, image search, and native Mac apps.** I like clear screens, dependable automation, and software that still works after the demo.
 
 [Email](mailto:arslanbasharat414@gmail.com) · [Explore my repositories](https://github.com/arslanbasharat-o-o?tab=repositories)
 
@@ -13,13 +13,14 @@ I build software that makes day-to-day operations easier: **repair workflows, su
 
 | Project | What it does |
 | :--- | :--- |
+| **[Nearby Drop](https://github.com/arslanbasharat-o-o/NearByDrop)** | A Mac menu bar app for Quick Share with Android and compatible Windows devices, plus QR and USB transfers.<br><sub>Swift · SwiftUI · macOS</sub> |
 | **[RMA System](https://github.com/arslanbasharat-o-o/RMA-System)** | Return tracking, mobile photo capture, and model-matching review for repair teams.<br><sub>Next.js · TypeScript · PostgreSQL · Docker</sub> |
 | **[Google Lens API](https://github.com/arslanbasharat-o-o/Google-Lens-API)** | A self-hosted image-search API with a TypeScript gateway, Python browser workers, and queued processing.<br><sub>Fastify · Python · Scrapling · Redis</sub> |
 | **[Parts Extractor](https://github.com/arslanbasharat-o-o/Scraper)** | Supplier catalog extraction, product enrichment, price history, and scheduled, resumable scraping.<br><sub>Python · Flask · SQLite · Playwright</sub> |
 
 ### Toolkit
 
-**Build** &nbsp; TypeScript · JavaScript · Python · Next.js · Flask · Fastify<br>
+**Build** &nbsp; Swift · SwiftUI · macOS · TypeScript · JavaScript · Python · Next.js · Flask · Fastify<br>
 **Data** &nbsp; PostgreSQL · SQLite · Redis · Catalog & SKU matching<br>
 **Automate & ship** &nbsp; Scrapling · Playwright · Docker · Linux · GitHub Actions
 

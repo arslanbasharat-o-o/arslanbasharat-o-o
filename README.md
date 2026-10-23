@@ -13,7 +13,7 @@ I build tools that make real work less tedious: **repair operations, supplier da
 
 | Project | What it does |
 | :--- | :--- |
-| **[Nearby Drop](https://arslanbasharat-o-o.github.io/NearByDrop/)** · [GitHub source](https://github.com/arslanbasharat-o-o/NearByDrop) | A Mac menu bar app for Quick Share with Android and compatible Windows devices, plus QR and USB transfers.<br><sub>Swift · SwiftUI · macOS</sub> |
+| **[Nearby Drop](https://arslanbasharat-o-o.github.io/NearByDrop/)** · [GitHub source](https://github.com/arslanbasharat-o-o/NearByDrop) | A Mac menu bar app for Quick Share with Android and compatible Windows devices, plus QR and USB transfers.<br><sub>Swift · SwiftUI · macOS · [Download v2.3.4](https://github.com/arslanbasharat-o-o/NearByDrop/releases/tag/v2.3.4) · [Android-to-Mac setup guide](https://arslanbasharat-o-o.github.io/NearByDrop/blog/how-to-transfer-files-mac-android.html)</sub> |
 | **[RMA System](https://github.com/arslanbasharat-o-o/RMA-System)** | Return tracking, mobile photo capture, and model-matching review for repair teams.<br><sub>Next.js · TypeScript · PostgreSQL · Docker</sub> |
 | **[Google Lens API](https://github.com/arslanbasharat-o-o/Google-Lens-API)** | A self-hosted image-search API with a TypeScript gateway, Python browser workers, and queued processing.<br><sub>Fastify · Python · Scrapling · Redis</sub> |
 | **[Parts Extractor](https://github.com/arslanbasharat-o-o/Scraper)** | Supplier catalog extraction, product enrichment, price history, and scheduled, resumable scraping.<br><sub>Python · Flask · SQLite · Playwright</sub> |

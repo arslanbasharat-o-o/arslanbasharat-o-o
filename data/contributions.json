@@ -1,44 +1,9 @@
 {
   "username": "arslanbasharat-o-o",
-  "as_of": "2026-10-24",
-  "total": 549,
-  "daily_total": 549,
+  "as_of": "2026-10-25",
+  "total": 957,
+  "daily_total": 957,
   "days": [
-    {
-      "date": "2025-10-19",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-20",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-21",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-22",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-23",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-24",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-25",
-      "level": 0,
-      "count": 0
-    },
     {
       "date": "2025-10-26",
       "level": 0,
@@ -1611,17 +1576,17 @@
     },
     {
       "date": "2026-09-05",
-      "level": 2,
+      "level": 1,
       "count": 26
     },
     {
       "date": "2026-09-06",
-      "level": 3,
+      "level": 1,
       "count": 48
     },
     {
       "date": "2026-09-07",
-      "level": 2,
+      "level": 1,
       "count": 19
     },
     {
@@ -1786,12 +1751,12 @@
     },
     {
       "date": "2026-10-10",
-      "level": 2,
+      "level": 1,
       "count": 26
     },
     {
       "date": "2026-10-11",
-      "level": 2,
+      "level": 1,
       "count": 21
     },
     {
@@ -1821,17 +1786,17 @@
     },
     {
       "date": "2026-10-17",
-      "level": 3,
+      "level": 1,
       "count": 33
     },
     {
       "date": "2026-10-18",
-      "level": 4,
+      "level": 2,
       "count": 82
     },
     {
       "date": "2026-10-19",
-      "level": 4,
+      "level": 2,
       "count": 64
     },
     {
@@ -1841,23 +1806,28 @@
     },
     {
       "date": "2026-10-21",
-      "level": 2,
+      "level": 1,
       "count": 18
     },
     {
       "date": "2026-10-22",
-      "level": 2,
-      "count": 28
+      "level": 3,
+      "count": 128
     },
     {
       "date": "2026-10-23",
       "level": 2,
-      "count": 26
+      "count": 118
     },
     {
       "date": "2026-10-24",
-      "level": 3,
-      "count": 39
+      "level": 4,
+      "count": 250
+    },
+    {
+      "date": "2026-10-25",
+      "level": 1,
+      "count": 5
     }
   ]
 }

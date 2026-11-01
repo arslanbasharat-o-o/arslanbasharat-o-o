@@ -1,44 +1,9 @@
 {
   "username": "arslanbasharat-o-o",
-  "as_of": "2026-10-31",
-  "total": 1505,
-  "daily_total": 1505,
+  "as_of": "2026-11-01",
+  "total": 1525,
+  "daily_total": 1525,
   "days": [
-    {
-      "date": "2025-10-26",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-27",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-28",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-29",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-30",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-31",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-01",
-      "level": 0,
-      "count": 0
-    },
     {
       "date": "2025-11-02",
       "level": 0,
@@ -1857,7 +1822,12 @@
     {
       "date": "2026-10-31",
       "level": 1,
-      "count": 15
+      "count": 30
+    },
+    {
+      "date": "2026-11-01",
+      "level": 1,
+      "count": 5
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "username": "arslanbasharat-o-o",
-  "as_of": "2026-11-01",
-  "total": 1525,
-  "daily_total": 1525,
+  "as_of": "2026-11-02",
+  "total": 1065,
+  "daily_total": 1065,
   "days": [
     {
       "date": "2025-11-02",
@@ -1541,17 +1541,17 @@
     },
     {
       "date": "2026-09-05",
-      "level": 1,
+      "level": 2,
       "count": 26
     },
     {
       "date": "2026-09-06",
-      "level": 1,
+      "level": 3,
       "count": 48
     },
     {
       "date": "2026-09-07",
-      "level": 1,
+      "level": 2,
       "count": 19
     },
     {
@@ -1717,12 +1717,12 @@
     {
       "date": "2026-10-10",
       "level": 1,
-      "count": 26
+      "count": 2
     },
     {
       "date": "2026-10-11",
-      "level": 1,
-      "count": 30
+      "level": 0,
+      "count": 0
     },
     {
       "date": "2026-10-12",
@@ -1732,12 +1732,12 @@
     {
       "date": "2026-10-13",
       "level": 1,
-      "count": 3
+      "count": 2
     },
     {
       "date": "2026-10-14",
-      "level": 1,
-      "count": 8
+      "level": 0,
+      "count": 0
     },
     {
       "date": "2026-10-15",
@@ -1751,18 +1751,18 @@
     },
     {
       "date": "2026-10-17",
-      "level": 1,
-      "count": 67
+      "level": 3,
+      "count": 38
     },
     {
       "date": "2026-10-18",
-      "level": 3,
-      "count": 165
+      "level": 4,
+      "count": 69
     },
     {
       "date": "2026-10-19",
-      "level": 2,
-      "count": 113
+      "level": 3,
+      "count": 41
     },
     {
       "date": "2026-10-20",
@@ -1771,17 +1771,17 @@
     },
     {
       "date": "2026-10-21",
-      "level": 1,
+      "level": 2,
       "count": 18
     },
     {
       "date": "2026-10-22",
-      "level": 2,
+      "level": 4,
       "count": 153
     },
     {
       "date": "2026-10-23",
-      "level": 2,
+      "level": 4,
       "count": 141
     },
     {
@@ -1791,43 +1791,48 @@
     },
     {
       "date": "2026-10-25",
-      "level": 1,
-      "count": 45
+      "level": 2,
+      "count": 25
     },
     {
       "date": "2026-10-26",
-      "level": 1,
-      "count": 61
+      "level": 2,
+      "count": 22
     },
     {
       "date": "2026-10-27",
       "level": 1,
-      "count": 8
+      "count": 3
     },
     {
       "date": "2026-10-28",
       "level": 1,
-      "count": 13
+      "count": 1
     },
     {
       "date": "2026-10-29",
-      "level": 1,
-      "count": 71
+      "level": 2,
+      "count": 26
     },
     {
       "date": "2026-10-30",
       "level": 1,
-      "count": 56
+      "count": 11
     },
     {
       "date": "2026-10-31",
       "level": 1,
-      "count": 30
+      "count": 1
     },
     {
       "date": "2026-11-01",
-      "level": 1,
-      "count": 5
+      "level": 0,
+      "count": 0
+    },
+    {
+      "date": "2026-11-02",
+      "level": 0,
+      "count": 0
     }
   ]
 }
